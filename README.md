@@ -1,0 +1,3 @@
+SHA256Demo.py
+
+This program demonstrates the production of three SHA-256 encryptions by using the hashlib library for Python. The hashlib library contains a sha256() function that is used to create a hasher object. The demonstration itself prints an input string on the console, then uses the update() function of the hasher object to convert the input text into bytes, which are sufficiently scrambled by the update() function into ciphertext. The resulting hash is then output to the console. This process is performed three times to show that a different hash is produced each time despite only minor capitalization changes in the plaintext.
